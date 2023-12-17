@@ -48,4 +48,8 @@ public class HelperUser extends HelperBase {
         return
         isElementPresent(By.xpath("//button[text()='Sign Out']"));
     }
+
+    public void logOut() {
+        click(By.xpath("//button[text()='Sign Out']"));
+    }
 }

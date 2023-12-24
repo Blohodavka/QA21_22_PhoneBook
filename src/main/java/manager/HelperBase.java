@@ -1,5 +1,6 @@
 package manager;
 
+import org.omg.Messaging.SyncScopeHelper;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -43,7 +44,9 @@ public class HelperBase {
     public boolean isAlertPresent(String message) {
         Alert alert = new WebDriverWait(wd, 10)
                 .until(ExpectedConditions.alertIsPresent());
+
         if (alert != null && alert.getText().contains(message)){
+            System.out.println(alert.getText());
             //click ok
             alert.accept();
             // click cancel ----> alert.dismiss();

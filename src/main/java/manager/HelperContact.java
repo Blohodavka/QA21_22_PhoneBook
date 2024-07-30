@@ -79,6 +79,7 @@ public class HelperContact extends HelperBase {
     }
 
     private int countOfContacts() {
+
         return wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size();
     }
 

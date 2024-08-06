@@ -59,8 +59,8 @@ public class RegistrationTests extends TestBase{
     @Test
     public void registrationWrongPassword(){
 
-//        Random random = new Random();
-//        int i = random.nextInt(1000);
+        Random random = new Random();
+        int i = random.nextInt(1000);
 
         User user = new User().withEmail("mania"+i+"@mail.ru").withPassword("Mama12");
         logger.info("Tests run with data: --->"+user.toString());

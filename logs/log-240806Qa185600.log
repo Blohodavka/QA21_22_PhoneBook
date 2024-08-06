@@ -1,0 +1,337 @@
+18:56:01.691 INFO  manager.ApplicationManager - All tests run in Chrome Browser
+18:56:02.326 INFO  manager.ApplicationManager - The link -->https://telranedu.web.app/home
+18:56:02.361 INFO  tests.TestBase - Name of method ---> loginSuccess
+18:56:02.362 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:07.409 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:07.410 INFO  tests.TestBase - Start test with name `loginSuccess`
+18:56:07.410 INFO  tests.TestBase - Test data --> email:`blohodavka@mail.ru` & password: `Mama123`
+18:56:07.412 INFO  manager.ApplicationManager - befor find element:By.cssSelector: a[href='/login']
+18:56:07.424 INFO  manager.ApplicationManager - element found ssuccess:By.cssSelector: a[href='/login']
+18:56:07.427 INFO  manager.ApplicationManager - start method click
+18:56:07.467 INFO  manager.ApplicationManager - done method click
+18:56:07.467 INFO  manager.HelperBase - open form by click on button with locator By.cssSelector("a[href='/login']")
+18:56:07.467 INFO  manager.ApplicationManager - befor find element:By.name: email
+18:56:07.487 INFO  manager.ApplicationManager - element found ssuccess:By.name: email
+18:56:07.487 INFO  manager.ApplicationManager - start method click
+18:56:07.522 INFO  manager.ApplicationManager - done method click
+18:56:07.623 INFO  manager.HelperBase - type in input with locator By.name("email")
+18:56:07.623 INFO  manager.ApplicationManager - befor find element:By.xpath: //input[last()]
+18:56:07.641 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //input[last()]
+18:56:07.641 INFO  manager.ApplicationManager - start method click
+18:56:07.671 INFO  manager.ApplicationManager - done method click
+18:56:07.791 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Login']
+18:56:07.809 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Login']
+18:56:07.809 INFO  manager.ApplicationManager - start method click
+18:56:07.840 INFO  manager.ApplicationManager - done method click
+18:56:07.840 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:08.908 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:08.909 INFO  tests.TestBase - Assert check is Element button 'Sing Out' present
+18:56:08.911 INFO  tests.TestBase - ================================
+18:56:08.911 INFO  tests.TestBase - Name of method ---> loginSuccess
+18:56:08.912 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:08.927 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:08.928 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:08.942 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:08.942 INFO  manager.ApplicationManager - start method click
+18:56:08.975 INFO  manager.ApplicationManager - done method click
+18:56:08.976 INFO  tests.TestBase - Before method finish logout
+18:56:08.976 INFO  tests.TestBase - Start test with name `loginSuccess`
+18:56:08.976 INFO  tests.TestBase - Test data --> email:`blohodavka@mail.ru` & password: `Mama123`
+18:56:08.976 INFO  manager.ApplicationManager - befor find element:By.cssSelector: a[href='/login']
+18:56:08.986 INFO  manager.ApplicationManager - element found ssuccess:By.cssSelector: a[href='/login']
+18:56:08.987 INFO  manager.ApplicationManager - start method click
+18:56:09.020 INFO  manager.ApplicationManager - done method click
+18:56:09.020 INFO  manager.HelperBase - open form by click on button with locator By.cssSelector("a[href='/login']")
+18:56:09.021 INFO  manager.ApplicationManager - befor find element:By.name: email
+18:56:09.035 INFO  manager.ApplicationManager - element found ssuccess:By.name: email
+18:56:09.035 INFO  manager.ApplicationManager - start method click
+18:56:09.064 INFO  manager.ApplicationManager - done method click
+18:56:09.176 INFO  manager.HelperBase - type in input with locator By.name("email")
+18:56:09.176 INFO  manager.ApplicationManager - befor find element:By.xpath: //input[last()]
+18:56:09.188 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //input[last()]
+18:56:09.188 INFO  manager.ApplicationManager - start method click
+18:56:09.226 INFO  manager.ApplicationManager - done method click
+18:56:09.341 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Login']
+18:56:09.361 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Login']
+18:56:09.361 INFO  manager.ApplicationManager - start method click
+18:56:09.391 INFO  manager.ApplicationManager - done method click
+18:56:09.391 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:09.662 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:09.662 INFO  tests.TestBase - Assert check is Element button 'Sing Out' present
+18:56:09.662 INFO  tests.TestBase - ================================
+18:56:09.663 INFO  tests.TestBase - Name of method ---> loginSuccess
+18:56:09.663 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:09.673 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:09.674 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:09.687 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:09.687 INFO  manager.ApplicationManager - start method click
+18:56:09.722 INFO  manager.ApplicationManager - done method click
+18:56:09.722 INFO  tests.TestBase - Before method finish logout
+18:56:09.722 INFO  tests.TestBase - Start test with name `loginSuccess`
+18:56:09.722 INFO  tests.TestBase - Test data --> email:`blohodavka@mail.ru` & password: `Mama123`
+18:56:09.724 INFO  manager.ApplicationManager - befor find element:By.cssSelector: a[href='/login']
+18:56:09.732 INFO  manager.ApplicationManager - element found ssuccess:By.cssSelector: a[href='/login']
+18:56:09.733 INFO  manager.ApplicationManager - start method click
+18:56:09.765 INFO  manager.ApplicationManager - done method click
+18:56:09.765 INFO  manager.HelperBase - open form by click on button with locator By.cssSelector("a[href='/login']")
+18:56:09.766 INFO  manager.ApplicationManager - befor find element:By.name: email
+18:56:09.779 INFO  manager.ApplicationManager - element found ssuccess:By.name: email
+18:56:09.780 INFO  manager.ApplicationManager - start method click
+18:56:09.815 INFO  manager.ApplicationManager - done method click
+18:56:09.905 INFO  manager.HelperBase - type in input with locator By.name("email")
+18:56:09.905 INFO  manager.ApplicationManager - befor find element:By.xpath: //input[last()]
+18:56:09.920 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //input[last()]
+18:56:09.921 INFO  manager.ApplicationManager - start method click
+18:56:09.958 INFO  manager.ApplicationManager - done method click
+18:56:10.073 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Login']
+18:56:10.090 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Login']
+18:56:10.090 INFO  manager.ApplicationManager - start method click
+18:56:10.120 INFO  manager.ApplicationManager - done method click
+18:56:10.120 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:10.387 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:10.387 INFO  tests.TestBase - Assert check is Element button 'Sing Out' present
+18:56:10.387 INFO  tests.TestBase - ================================
+18:56:10.388 INFO  tests.TestBase - Name of method ---> loginSuccessModel
+18:56:10.389 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:10.400 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:10.400 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:10.415 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:10.415 INFO  manager.ApplicationManager - start method click
+18:56:10.450 INFO  manager.ApplicationManager - done method click
+18:56:10.450 INFO  tests.TestBase - Before method finish logout
+18:56:10.455 INFO  tests.TestBase - Test data ---> User{email='mara@gmail.com', password='Mmar123456$'}
+18:56:10.455 INFO  manager.ApplicationManager - befor find element:By.cssSelector: a[href='/login']
+18:56:10.478 INFO  manager.ApplicationManager - element found ssuccess:By.cssSelector: a[href='/login']
+18:56:10.479 INFO  manager.ApplicationManager - start method click
+18:56:10.507 INFO  manager.ApplicationManager - done method click
+18:56:10.507 INFO  manager.HelperBase - open form by click on button with locator By.cssSelector("a[href='/login']")
+18:56:10.507 INFO  manager.ApplicationManager - befor find element:By.name: email
+18:56:10.521 INFO  manager.ApplicationManager - element found ssuccess:By.name: email
+18:56:10.522 INFO  manager.ApplicationManager - start method click
+18:56:10.559 INFO  manager.ApplicationManager - done method click
+18:56:10.660 INFO  manager.HelperBase - type in input with locator By.name("email")
+18:56:10.660 INFO  manager.ApplicationManager - befor find element:By.xpath: //input[last()]
+18:56:10.675 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //input[last()]
+18:56:10.675 INFO  manager.ApplicationManager - start method click
+18:56:10.712 INFO  manager.ApplicationManager - done method click
+18:56:10.829 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Login']
+18:56:10.846 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Login']
+18:56:10.846 INFO  manager.ApplicationManager - start method click
+18:56:10.877 INFO  manager.ApplicationManager - done method click
+18:56:10.877 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:11.150 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:11.150 INFO  tests.TestBase - Assert check is Element button 'Sing Out' present
+18:56:11.151 INFO  tests.TestBase - ================================
+18:56:11.151 INFO  tests.TestBase - Name of method ---> loginSuccessModel
+18:56:11.151 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:11.172 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:11.173 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:11.189 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:11.189 INFO  manager.ApplicationManager - start method click
+18:56:11.220 INFO  manager.ApplicationManager - done method click
+18:56:11.220 INFO  tests.TestBase - Before method finish logout
+18:56:11.221 INFO  tests.TestBase - Test data ---> User{email='sonya@gmail.com', password='Ss12345$'}
+18:56:11.221 INFO  manager.ApplicationManager - befor find element:By.cssSelector: a[href='/login']
+18:56:11.234 INFO  manager.ApplicationManager - element found ssuccess:By.cssSelector: a[href='/login']
+18:56:11.234 INFO  manager.ApplicationManager - start method click
+18:56:11.266 INFO  manager.ApplicationManager - done method click
+18:56:11.266 INFO  manager.HelperBase - open form by click on button with locator By.cssSelector("a[href='/login']")
+18:56:11.266 INFO  manager.ApplicationManager - befor find element:By.name: email
+18:56:11.280 INFO  manager.ApplicationManager - element found ssuccess:By.name: email
+18:56:11.280 INFO  manager.ApplicationManager - start method click
+18:56:11.321 INFO  manager.ApplicationManager - done method click
+18:56:11.452 INFO  manager.HelperBase - type in input with locator By.name("email")
+18:56:11.452 INFO  manager.ApplicationManager - befor find element:By.xpath: //input[last()]
+18:56:11.465 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //input[last()]
+18:56:11.466 INFO  manager.ApplicationManager - start method click
+18:56:11.505 INFO  manager.ApplicationManager - done method click
+18:56:11.620 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Login']
+18:56:11.637 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Login']
+18:56:11.637 INFO  manager.ApplicationManager - start method click
+18:56:11.665 INFO  manager.ApplicationManager - done method click
+18:56:11.665 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:11.933 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:11.933 INFO  tests.TestBase - Assert check is Element button 'Sing Out' present
+18:56:11.933 INFO  tests.TestBase - ================================
+18:56:11.934 INFO  tests.TestBase - Name of method ---> loginUnregisteredUser
+18:56:11.934 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:11.948 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:11.948 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:11.963 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:11.963 INFO  manager.ApplicationManager - start method click
+18:56:12.001 INFO  manager.ApplicationManager - done method click
+18:56:12.001 INFO  tests.TestBase - Before method finish logout
+18:56:12.002 INFO  tests.TestBase - Test data --> email:`luck@mail.ru` & password: `Luck123$`
+18:56:12.002 INFO  manager.ApplicationManager - befor find element:By.cssSelector: a[href='/login']
+18:56:12.025 INFO  manager.ApplicationManager - element found ssuccess:By.cssSelector: a[href='/login']
+18:56:12.025 INFO  manager.ApplicationManager - start method click
+18:56:12.056 INFO  manager.ApplicationManager - done method click
+18:56:12.057 INFO  manager.HelperBase - open form by click on button with locator By.cssSelector("a[href='/login']")
+18:56:12.057 INFO  manager.ApplicationManager - befor find element:By.name: email
+18:56:12.071 INFO  manager.ApplicationManager - element found ssuccess:By.name: email
+18:56:12.073 INFO  manager.ApplicationManager - start method click
+18:56:12.120 INFO  manager.ApplicationManager - done method click
+18:56:12.243 INFO  manager.HelperBase - type in input with locator By.name("email")
+18:56:12.244 INFO  manager.ApplicationManager - befor find element:By.xpath: //input[last()]
+18:56:12.259 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //input[last()]
+18:56:12.259 INFO  manager.ApplicationManager - start method click
+18:56:12.300 INFO  manager.ApplicationManager - done method click
+18:56:12.399 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Login']
+18:56:12.415 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Login']
+18:56:12.415 INFO  manager.ApplicationManager - start method click
+18:56:12.441 INFO  manager.ApplicationManager - done method click
+18:56:12.984 INFO  tests.TestBase - Assert check is alert with error text 'Wrong email or password'
+18:56:12.985 INFO  tests.TestBase - ================================
+18:56:12.985 INFO  tests.TestBase - Name of method ---> loginWrongEmail
+18:56:12.986 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:18.006 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:18.006 INFO  tests.TestBase - Test data --> email:`blohodavkamail.ru` & password: `Mama123$`
+18:56:18.006 INFO  manager.ApplicationManager - befor find element:By.cssSelector: a[href='/login']
+18:56:18.021 INFO  manager.ApplicationManager - element found ssuccess:By.cssSelector: a[href='/login']
+18:56:18.021 INFO  manager.ApplicationManager - start method click
+18:56:18.053 INFO  manager.ApplicationManager - done method click
+18:56:18.053 INFO  manager.HelperBase - open form by click on button with locator By.cssSelector("a[href='/login']")
+18:56:18.053 INFO  manager.ApplicationManager - befor find element:By.name: email
+18:56:18.072 INFO  manager.ApplicationManager - element found ssuccess:By.name: email
+18:56:18.072 INFO  manager.ApplicationManager - start method click
+18:56:18.111 INFO  manager.ApplicationManager - done method click
+18:56:18.240 INFO  manager.HelperBase - type in input with locator By.name("email")
+18:56:18.240 INFO  manager.ApplicationManager - befor find element:By.xpath: //input[last()]
+18:56:18.255 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //input[last()]
+18:56:18.255 INFO  manager.ApplicationManager - start method click
+18:56:18.291 INFO  manager.ApplicationManager - done method click
+18:56:18.424 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Login']
+18:56:18.440 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Login']
+18:56:18.441 INFO  manager.ApplicationManager - start method click
+18:56:18.471 INFO  manager.ApplicationManager - done method click
+18:56:19.509 INFO  tests.TestBase - Assert check is alert with error text 'Wrong email or password'
+18:56:19.510 INFO  tests.TestBase - ================================
+18:56:19.511 INFO  tests.TestBase - Name of method ---> loginWrongPassword
+18:56:19.511 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:24.567 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:24.568 INFO  tests.TestBase - Test data --> email:`blohodavka@mail.ru` & password: `Mama12345$`
+18:56:24.568 INFO  manager.ApplicationManager - befor find element:By.cssSelector: a[href='/login']
+18:56:24.581 INFO  manager.ApplicationManager - element found ssuccess:By.cssSelector: a[href='/login']
+18:56:24.581 INFO  manager.ApplicationManager - start method click
+18:56:24.613 INFO  manager.ApplicationManager - done method click
+18:56:24.614 INFO  manager.HelperBase - open form by click on button with locator By.cssSelector("a[href='/login']")
+18:56:24.614 INFO  manager.ApplicationManager - befor find element:By.name: email
+18:56:24.628 INFO  manager.ApplicationManager - element found ssuccess:By.name: email
+18:56:24.628 INFO  manager.ApplicationManager - start method click
+18:56:24.658 INFO  manager.ApplicationManager - done method click
+18:56:24.826 INFO  manager.HelperBase - type in input with locator By.name("email")
+18:56:24.826 INFO  manager.ApplicationManager - befor find element:By.xpath: //input[last()]
+18:56:24.847 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //input[last()]
+18:56:24.848 INFO  manager.ApplicationManager - start method click
+18:56:24.882 INFO  manager.ApplicationManager - done method click
+18:56:24.984 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Login']
+18:56:24.999 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Login']
+18:56:24.999 INFO  manager.ApplicationManager - start method click
+18:56:25.030 INFO  manager.ApplicationManager - done method click
+18:56:25.557 INFO  tests.TestBase - Assert check is alert with error text 'Wrong email or password'
+18:56:25.557 INFO  tests.TestBase - ================================
+18:56:25.560 INFO  tests.TestBase - Name of method ---> registrationExistsUser
+18:56:25.560 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:30.602 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:30.602 INFO  tests.TestBase - Tests run with data: --->User{email='blohodavak@mail.ru', password='Masha123$'}
+18:56:30.602 INFO  manager.ApplicationManager - befor find element:By.cssSelector: a[href='/login']
+18:56:30.612 INFO  manager.ApplicationManager - element found ssuccess:By.cssSelector: a[href='/login']
+18:56:30.612 INFO  manager.ApplicationManager - start method click
+18:56:30.642 INFO  manager.ApplicationManager - done method click
+18:56:30.642 INFO  manager.HelperBase - open form by click on button with locator By.cssSelector("a[href='/login']")
+18:56:30.642 INFO  manager.ApplicationManager - befor find element:By.name: email
+18:56:30.657 INFO  manager.ApplicationManager - element found ssuccess:By.name: email
+18:56:30.658 INFO  manager.ApplicationManager - start method click
+18:56:30.690 INFO  manager.ApplicationManager - done method click
+18:56:30.779 INFO  manager.HelperBase - type in input with locator By.name("email")
+18:56:30.780 INFO  manager.ApplicationManager - befor find element:By.xpath: //input[last()]
+18:56:30.795 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //input[last()]
+18:56:30.795 INFO  manager.ApplicationManager - start method click
+18:56:30.839 INFO  manager.ApplicationManager - done method click
+18:56:30.946 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Registration']
+18:56:30.970 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Registration']
+18:56:30.970 INFO  manager.ApplicationManager - start method click
+18:56:30.999 INFO  manager.ApplicationManager - done method click
+18:56:32.034 INFO  tests.TestBase - ================================
+18:56:32.035 INFO  tests.TestBase - Name of method ---> registrationSuccess
+18:56:32.036 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:37.094 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:37.098 INFO  tests.TestBase - Tests run with data: --->User{email='mania3397@mail.ru', password='Mama123$'}
+18:56:37.098 INFO  manager.ApplicationManager - befor find element:By.cssSelector: a[href='/login']
+18:56:37.121 INFO  manager.ApplicationManager - element found ssuccess:By.cssSelector: a[href='/login']
+18:56:37.121 INFO  manager.ApplicationManager - start method click
+18:56:37.151 INFO  manager.ApplicationManager - done method click
+18:56:37.151 INFO  manager.HelperBase - open form by click on button with locator By.cssSelector("a[href='/login']")
+18:56:37.151 INFO  tests.TestBase - openRegistrationForm invoked
+18:56:37.151 INFO  manager.ApplicationManager - befor find element:By.name: email
+18:56:37.165 INFO  manager.ApplicationManager - element found ssuccess:By.name: email
+18:56:37.165 INFO  manager.ApplicationManager - start method click
+18:56:37.195 INFO  manager.ApplicationManager - done method click
+18:56:37.319 INFO  manager.HelperBase - type in input with locator By.name("email")
+18:56:37.319 INFO  manager.ApplicationManager - befor find element:By.xpath: //input[last()]
+18:56:37.336 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //input[last()]
+18:56:37.336 INFO  manager.ApplicationManager - start method click
+18:56:37.366 INFO  manager.ApplicationManager - done method click
+18:56:37.469 INFO  tests.TestBase - fillRegistrationForm invoked
+18:56:37.469 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Registration']
+18:56:37.490 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Registration']
+18:56:37.490 INFO  manager.ApplicationManager - start method click
+18:56:37.520 INFO  manager.ApplicationManager - done method click
+18:56:37.520 INFO  tests.TestBase - submitLogin invoked
+18:56:37.520 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:38.155 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:38.155 INFO  manager.ApplicationManager - befor find element:By.cssSelector: .contact-page_message__2qafk>h1
+18:56:38.358 INFO  manager.ApplicationManager - element found ssuccess:By.cssSelector: .contact-page_message__2qafk>h1
+18:56:38.371 INFO  manager.ApplicationManager - get text from the element with text: No Contacts here!
+18:56:38.375 INFO  manager.ApplicationManager - got the text successful
+18:56:38.376 INFO  tests.TestBase - ================================
+18:56:38.376 INFO  tests.TestBase - Name of method ---> registrationWrongEmail
+18:56:38.376 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:38.388 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:38.388 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:38.404 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:38.404 INFO  manager.ApplicationManager - start method click
+18:56:38.439 INFO  manager.ApplicationManager - done method click
+18:56:38.440 INFO  tests.TestBase - Tests run with data: --->User{email='maniamail.ru', password='Mama123$'}
+18:56:38.440 INFO  manager.ApplicationManager - befor find element:By.cssSelector: a[href='/login']
+18:56:38.451 INFO  manager.ApplicationManager - element found ssuccess:By.cssSelector: a[href='/login']
+18:56:38.453 INFO  manager.ApplicationManager - start method click
+18:56:38.482 INFO  manager.ApplicationManager - done method click
+18:56:38.482 INFO  manager.HelperBase - open form by click on button with locator By.cssSelector("a[href='/login']")
+18:56:38.482 INFO  manager.ApplicationManager - befor find element:By.name: email
+18:56:38.495 INFO  manager.ApplicationManager - element found ssuccess:By.name: email
+18:56:38.495 INFO  manager.ApplicationManager - start method click
+18:56:38.531 INFO  manager.ApplicationManager - done method click
+18:56:38.642 INFO  manager.HelperBase - type in input with locator By.name("email")
+18:56:38.642 INFO  manager.ApplicationManager - befor find element:By.xpath: //input[last()]
+18:56:38.649 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //input[last()]
+18:56:38.649 INFO  manager.ApplicationManager - start method click
+18:56:38.690 INFO  manager.ApplicationManager - done method click
+18:56:38.805 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Registration']
+18:56:38.818 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Registration']
+18:56:38.818 INFO  manager.ApplicationManager - start method click
+18:56:38.859 INFO  manager.ApplicationManager - done method click
+18:56:39.393 INFO  tests.TestBase - ================================
+18:56:39.394 INFO  tests.TestBase - Name of method ---> registrationWrongPassword
+18:56:39.394 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Sign Out']
+18:56:44.451 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Sign Out']
+18:56:44.452 INFO  tests.TestBase - Tests run with data: --->User{email='mania791@mail.ru', password='Mama12'}
+18:56:44.452 INFO  manager.ApplicationManager - befor find element:By.cssSelector: a[href='/login']
+18:56:44.466 INFO  manager.ApplicationManager - element found ssuccess:By.cssSelector: a[href='/login']
+18:56:44.467 INFO  manager.ApplicationManager - start method click
+18:56:44.499 INFO  manager.ApplicationManager - done method click
+18:56:44.499 INFO  manager.HelperBase - open form by click on button with locator By.cssSelector("a[href='/login']")
+18:56:44.499 INFO  manager.ApplicationManager - befor find element:By.name: email
+18:56:44.522 INFO  manager.ApplicationManager - element found ssuccess:By.name: email
+18:56:44.522 INFO  manager.ApplicationManager - start method click
+18:56:44.557 INFO  manager.ApplicationManager - done method click
+18:56:44.657 INFO  manager.HelperBase - type in input with locator By.name("email")
+18:56:44.657 INFO  manager.ApplicationManager - befor find element:By.xpath: //input[last()]
+18:56:44.675 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //input[last()]
+18:56:44.675 INFO  manager.ApplicationManager - start method click
+18:56:44.706 INFO  manager.ApplicationManager - done method click
+18:56:44.795 INFO  manager.ApplicationManager - befor find element:By.xpath: //button[text()='Registration']
+18:56:44.801 INFO  manager.ApplicationManager - element found ssuccess:By.xpath: //button[text()='Registration']
+18:56:44.801 INFO  manager.ApplicationManager - start method click
+18:56:44.831 INFO  manager.ApplicationManager - done method click
+18:56:45.357 INFO  tests.TestBase - ================================

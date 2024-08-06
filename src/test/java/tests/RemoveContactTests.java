@@ -29,13 +29,11 @@ public class RemoveContactTests extends TestBase{
     }
 
     @Test
-    public void removeAllContacts(){
+    public void removeAllContacts() {
 
         app.getHelperContact().removeAllContacts();
 
-       Assert.assertEquals(app.getHelperContact().getMessage(), "No Contacts here!");
-
-        //"No contacts here"
-
+        Assert.assertTrue(app.getHelperUser().isNoContactsHereDisplayed());
+        //"No Contacts here!"
     }
 }

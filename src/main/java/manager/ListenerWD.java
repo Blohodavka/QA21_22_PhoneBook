@@ -11,6 +11,7 @@ public class ListenerWD extends AbstractWebDriverEventListener {
     Logger logger = LoggerFactory.getLogger(ListenerWD.class);
 
     public ListenerWD(Logger logger) {
+
         this.logger = logger;
     }
 

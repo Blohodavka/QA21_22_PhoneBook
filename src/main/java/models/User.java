@@ -17,6 +17,14 @@ public class User {
         return this;
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -25,11 +33,5 @@ public class User {
                 '}';
     }
 
-    public String getEmail() {
-        return email;
-    }
 
-    public String getPassword() {
-        return password;
-    }
 }

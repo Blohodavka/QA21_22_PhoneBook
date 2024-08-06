@@ -1,11 +1,14 @@
 package tests;
 
+import manager.DataProviderUser;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class LoginTests extends TestBase{
+
+    //Logger logger = LoggerFactory.getLogger(LoginTests.class);
     @BeforeMethod
     public void preCondition(){
         //if SingOut present --->logOut
@@ -16,8 +19,8 @@ public class LoginTests extends TestBase{
     }
 
 
-    @Test
-    public void loginSuccess(){
+    @Test(dataProvider = "loginData", dataProviderClass = DataProviderUser.class)
+    public void loginSuccess(String email, String password){
 
         logger.info("Start test with name `loginSuccess`");
         logger.info("Test data --> email:`blohodavka@mail.ru` & password: `Mama123`");
@@ -36,10 +39,10 @@ public class LoginTests extends TestBase{
 //        Assert.assertFalse();
 
     }
-    @Test
-    public void loginSuccessModel(){
+    @Test(dataProvider = "loginModels",dataProviderClass = DataProviderUser.class)
+    public void loginSuccessModel(User user){
 
-        logger.info("Test data --> email:`blohodavka@mail.ru` & password: `Mama123`");
+        logger.info("Test data ---> " +user.toString());
 
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm("blohodavka@mail.ru","Mama123$");
@@ -58,7 +61,7 @@ public class LoginTests extends TestBase{
     @Test
     public void loginWrongEmail(){
 
-        logger.info("Test data --> email:`blohodavkamail.ru` & password: `Mama123`");
+        logger.info("Test data --> email:`blohodavkamail.ru` & password: `Mama123$`");
 
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm("blohodavkamail.ru","Mama123$");
@@ -72,7 +75,7 @@ public class LoginTests extends TestBase{
     @Test
     public void loginWrongPassword(){
 
-        logger.info("Test data --> email:`blohodavka@mail.ru` & password: `Mama1`");
+        logger.info("Test data --> email:`blohodavka@mail.ru` & password: `Mama12345$`");
 
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm("blohodavka@mail.ru","Mama1");

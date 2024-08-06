@@ -87,12 +87,12 @@ public class HelperBase {
             throw new RuntimeException(e);
         }
     }
-    public boolean isNoContactsHereDisplayed() {
-        WebDriverWait wait = new WebDriverWait(wd, 5);
-        return
-                wait.until(ExpectedConditions.textToBePresentInElement(wd.findElement(By.cssSelector(".contact-page_message__2qafk>h1")),"No Contacts here!"));
-
-    }
+//    public boolean isNoContactsHereDisplayed() {
+//        WebDriverWait wait = new WebDriverWait(wd, 5);
+//        return
+//                wait.until(ExpectedConditions.textToBePresentInElement(wd.findElement(By.cssSelector(".contact-page_message__2qafk>h1")),"No Contacts here!"));
+//
+//    }
 
     public String getMessage() {
         WebDriverWait wait = new WebDriverWait(wd, 15);

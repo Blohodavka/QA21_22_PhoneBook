@@ -52,6 +52,7 @@ public class HelperUser extends HelperBase {
 //        emailInput.sendKeys(email);
 
         type(By.name("email"), email);
+        logger.info("type in input with locator By.name(\"email\")");
 
 
 //        WebElement passwordInput = wd.findElement(By.xpath("//input[last()]"));
@@ -60,10 +61,14 @@ public class HelperUser extends HelperBase {
 //        passwordInput.sendKeys(password);
 
         type(By.xpath("//input[last()]"), password);
+        //type(By.xpath("//input[la]"), password);
 
     }
 
+
+
     public void submitLogin() {
+
         click(By.xpath("//button[text()='Login']"));
     }
 
@@ -80,7 +85,12 @@ public class HelperUser extends HelperBase {
         click(By.xpath("//button[text()='Registration']"));
     }
 
-
+    public boolean isNoContactsHereDisplayed() {
+        WebDriverWait wait = new WebDriverWait(wd,5);
+        boolean res =   wait.until(ExpectedConditions
+                .textToBePresentInElement(wd.findElement(By.cssSelector(".contact-page_message__2qafk>h1")),"No Contacts here!"));
+        return res;
+    }
 
     public void login(User user) {
         openLoginRegistrationForm();

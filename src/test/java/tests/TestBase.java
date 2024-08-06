@@ -17,6 +17,7 @@ public class TestBase {
 
     @BeforeMethod
     public void startLogger(Method m){
+
         logger.info("Name of method ---> "+m.getName());
     }
 

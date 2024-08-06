@@ -1,5 +1,6 @@
 package tests;
 
+import manager.DataProviderContact;
 import models.Contact;
 import models.User;
 import org.openqa.selenium.By;
@@ -18,23 +19,16 @@ public class AddNewContactTests extends TestBase {
 
     }
 
-    @Test
-    public void addContactSuccessAllFields() {
+    @Test(dataProvider = "contactSuccess",dataProviderClass = DataProviderContact.class)
+    public void addContactSuccessAllFields(Contact contact) {
 
         int i = (int) (System.currentTimeMillis() / 1000 % 3600);
 
-        Contact contact = Contact.builder()
-                .name("Ivan")
-                .lastName("Ivanov")
-                .email("ivanov" + i + "@gmail.ru")
-                .address("Russia")
-                .phone("0125485" + i)
-                .description("all fields")
-                .build();
+        logger.info("Tests run with data: --->" + contact.toString());
 
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
-        app.getHelperContact().getScreen("src/test/screenshots/screen"+i+".png");
+//        app.getHelperContact().pause(2000);
         app.getHelperContact().saveContact();
 
         Assert.assertTrue(app.getHelperContact().isContactAddByName(contact.getName()));
@@ -55,9 +49,12 @@ public class AddNewContactTests extends TestBase {
                 .phone("0125485" + i)
                 .build();
 
+        logger.info("Tests run with data: --->" + contact.toString());
+
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
-      //  app.getHelperContact().getScreen("src/test/screenshots/screen.png");
+        //        app.getHelperContact().pause(2000);
+        app.getHelperContact().getScreen("src/test/screenshots/screen.png");
         app.getHelperContact().saveContact();
 
         Assert.assertTrue(app.getHelperContact().isContactAddByName(contact.getName()));
@@ -77,6 +74,8 @@ public class AddNewContactTests extends TestBase {
                 .phone("0125485555")
                 .description("wrong name")
                 .build();
+
+        logger.info("Tests run with data: --->" + contact.toString());
 
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
@@ -99,6 +98,9 @@ public class AddNewContactTests extends TestBase {
                 .description("wrong address")
                 .build();
 
+        logger.info("Tests run with data: --->" + contact.toString());
+
+
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
       //  app.getHelperContact().getScreen("src/test/screenshots/screen.png");
@@ -118,6 +120,7 @@ public class AddNewContactTests extends TestBase {
                 .phone("0125485865996")
                 .description("wrong Last Name")
                 .build();
+        logger.info("Tests run with data: --->" + contact.toString());
 
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
@@ -128,16 +131,10 @@ public class AddNewContactTests extends TestBase {
 
     }
 
-    @Test
-    public void addNewContactWrongPhone() {
-        Contact contact = Contact.builder()
-                .name("Ivan")
-                .lastName("Ivanov")
-                .email("ivanovqq@gmail.ru")
-                .address("Russia")
-                .phone("")
-                .description("wrong phone")
-                .build();
+    @Test(dataProvider = "contactWrongPhone",dataProviderClass = DataProviderContact.class)
+    public void addNewContactWrongPhone(Contact contact) {
+
+        logger.info("Tests run with data: --->" + contact.toString());
 
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);
@@ -159,6 +156,7 @@ public class AddNewContactTests extends TestBase {
                 .phone("012548511221")
                 .description("wrong email")
                 .build();
+        logger.info("Tests run with data: --->" + contact.toString());
 
         app.getHelperContact().openContactForm();
         app.getHelperContact().fillContactForm(contact);

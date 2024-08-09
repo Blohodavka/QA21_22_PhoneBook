@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class LoginTests extends TestBase{
 
     //Logger logger = LoggerFactory.getLogger(LoginTests.class);
-    @BeforeMethod
+    @BeforeMethod (alwaysRun = true)
     public void preCondition(){
         //if SingOut present --->logOut
         if(app.getHelperUser().isLogged()){
@@ -58,7 +58,7 @@ public class LoginTests extends TestBase{
 
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void loginWrongEmail(){
 
         logger.info("Test data --> email:`blohodavkamail.ru` & password: `Mama123$`");

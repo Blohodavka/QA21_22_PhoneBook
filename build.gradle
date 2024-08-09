@@ -46,3 +46,21 @@ task qa(type:Test){
 
     }
 }
+
+task group(type: Test){
+    useTestNG(){
+        suites 'src/test/resources/group.xml'
+    }
+}
+
+task team(type: Test) {
+    useTestNG() {
+        def groups = System.getProperty('groups')
+
+        if (groups != null) {
+            includeGroups groups
+
+        }
+        suites 'src/test/resources/base.xml'
+    }
+}

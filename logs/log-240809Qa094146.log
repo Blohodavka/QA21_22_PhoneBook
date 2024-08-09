@@ -1,0 +1,3 @@
+09:41:46.386 INFO  tests.TestBase - Test data --> email:`blohodavkamail.ru` & password: `Mama123$`
+09:41:46.403 INFO  tests.TestBase - Tests run with data: --->User{email='blohodavka@mail.ru', password='Mama12'}
+09:41:46.428 INFO  tests.TestBase - Tests run with data: --->Contact(name=SashaReq, lastName=Sashov, email=sashov2506@gmail.ru, address=UK, phone=01254852506, description=null)
